@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#outerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+#innerbox{
+    display: flex;
+    background-color: white;
+    width:60%;
+    height: 500px;
+}
+.leftinnerbox{
+    background-color:#2874f0 ;
+    color: white;
+}
+
+#backgroundimg{
+    display: flex;
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    margin-left: 30px;
+    margin-top: 120px;
+    /* width: 75%; */
+    /* border: 2px solid black; */
+}
+/* paragraph styling line no.15 */
+#looks{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 20px;
+    font-weight: bold;
+    line-height: 25px;
+}
+#like{
+   color: #dbdbdb;
+   margin-left: 20px;
+   line-height: 20px;
+   margin-top: 20px;
+   font-size: 16px;
+}
+
+/* button styling */
+#Continuebtn{
+    border: none;
+    background-color: orange; 
+    color: white;
+    font-weight: 400px;
+    font-size:20px; 
+    width: 90%;
+    height: 40px;
+    margin-left: 50px;
+    /* box-shadow: 0px 10px 10px 1px rgb(239, 175, 116); */
+    margin-top: 7px;
+    cursor: pointer;
+}
+#existingbtn{
+    border: none;
+    /* background-color: orange;  */
+    color: blue;
+    font: weight 400px;;
+    font-size:20px; 
+    height: 40px;
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 15px;
+    /* box-shadow: 0px 10px 15px 1px lightblue; */
+}
+
+.mobile,.name,.password{
+    outline: 0;
+    background-color: white; 
+    font-weight: 400px;
+    font-size:16px; 
+    width: 90%;
+    height: 20px;
+    margin-left: 45px;
+    margin-top: 50px;
+    
+    border-bottom: 1px solid rgb(121, 119, 119);
+    /* border-bottom: 1px groove grey; */
+}
+/* #entername{
+    outline: 0;
+    background-color: white; 
+    font-weight: 400px;
+    font-size:16px; 
+    width: 90%;
+    height: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+#password{
+    outline: 0;
+    background-color: white; 
+    font-weight: 400px;
+    font-size:16px; 
+    width: 90%;
+    height: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+} */
+/* input:focus {
+    border-bottom: .5px solid grey;
+  } */
+  /* .checkbox{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  } */
+  .Showpassword{
+    margin-left: -140px;
+    margin-top: 14px;
+    height: 21px;
+   
+  }
+  /* .checkbox{
+    margin-top: -24px;
+    margin-left: 78px;
+  } */
+  footer{
+    margin: 10px;
+  }
